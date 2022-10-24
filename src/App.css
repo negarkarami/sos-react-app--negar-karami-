@@ -1,0 +1,82 @@
+@import "./static/flexboxgrid.css";
+@font-face {
+  font-family: 'yekan';
+
+  src: url('./static/font/persian/yekan.eot');
+
+  src: url('./static/font/persian/yekan.eot?#iefix') format('embedded-opentype'),
+  url('./static/font/persian/yekan.woff2') format('woff2'),
+  url('./static/font/persian/yekan.woff') format('woff'),
+  url('./static/font/persian/yekan.ttf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: 'yekan';
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+html, body {
+  direction: rtl;
+  font-family: 'yekan';
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

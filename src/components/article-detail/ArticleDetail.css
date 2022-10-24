@@ -1,0 +1,52 @@
+.WrapperArticleDetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ArticleDetail .BoxImgDetail {
+    margin: 20px;
+}
+
+.ArticleDetail .BoxImgDetail img {
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.DetailText {
+    margin: 20px;
+}
+
+.DetailText .TitleDetail {
+    margin-top: -20px;
+    line-height: 2;
+}
+
+.DetailText .TimeDetail {
+    font-size: 0.6rem;
+    color: #767676;
+    display: flex;
+}
+
+.DetailText .DescriptionDetail {
+    font-size: 0.8rem;
+    color: #767676;
+    line-height:1.5;
+}
+
+.WrapperBtnDetail {
+    display: flex;
+    justify-content: center;
+}
+
+.WrapperBtnDetail button {
+    padding: 8px 40px;
+    margin-left: 10px;
+    border: 1px solid #1158A7;
+    box-shadow: 0px 2px 4px rgba(18, 18, 18, 0.2);
+    border-radius: 8px;
+    color: #1158A7;
+    background: #FFFFFF;
+    cursor: pointer;
+}

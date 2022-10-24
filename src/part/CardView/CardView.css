@@ -1,0 +1,60 @@
+
+.BoxCard {
+  margin-top: 20px;
+  height: 330px;
+  box-shadow: 0px 2px 4px rgba(18, 18, 18, 0.2);
+  border-radius: 16px;
+  border: 1px solid #0F5098;
+}
+
+.BoxCard .BoxPic {
+  margin: 10px;
+}
+
+.BoxCard .BoxPic img {
+  border-radius: 7px;
+}
+
+
+.Detail {
+  margin-right: 12px;
+  margin-top: -10px;
+  text-align: justify-all;
+}
+
+.Detail .Title {
+  line-height: 2;
+}
+
+.Detail .TimesBox {
+  display: flex;
+}
+
+.Detail .Time {
+  font-size: 0.8rem;
+  color: #767676;
+  padding-right: 3px;
+}
+
+.Detail .Description {
+  font-size: 0.8rem;
+  color: #767676;
+  line-height:1.5;
+}
+
+.WrapperBtn {
+  display: flex;
+  justify-content: left;
+}
+
+.WrapperBtn button {
+  padding: 8px 40px;
+  margin-left: 10px;
+  border: 1px solid #1158A7;
+  box-shadow: 0px 2px 4px rgba(18, 18, 18, 0.2);
+  border-radius: 8px;
+  color: #1158A7;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+

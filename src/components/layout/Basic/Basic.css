@@ -1,0 +1,16 @@
+
+
+  .Header {
+    color: blue;
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 8px 8px rgba(18, 18, 18, 0.2);
+  }
+
+  .box-mode {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+

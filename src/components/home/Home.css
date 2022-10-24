@@ -1,0 +1,16 @@
+.WrapperDesktop .WrapperTitle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.WrapperDesktop .WrapperTitle .DisplayAll {
+    color: #1158A7;
+}
+
+@media only screen and (max-width: 480px) {
+    .WrapperDesktop .WrapperTitle .DisplayAll {
+        display: none;
+    }
+}
+

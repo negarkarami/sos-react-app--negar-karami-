@@ -1,0 +1,106 @@
+.NavDesktop .Items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavDesktop .Items .Item .Link {
+    color:  #1158A7;
+    font-size: 14px;
+}
+
+.NavDesktop .RightLogo {
+    display: flex;
+}
+
+.NavDesktop .Items .RightLogo .LinkLogo .ImgLogo {
+   padding-left: 10px;
+}
+
+.NavDesktop .Items .RightLogo .TitleLogo .HelpIran {
+    color: #034EA2;
+    font-size: 1.1rem;
+}
+
+.NavDesktop .Items .RightLogo .TitleLogo .Assistance {
+   color: #EE1D25;
+    font-size: 1.1rem;
+}
+
+.NavDesktop .Items .Item .Btn-LA {
+    background-color:#1158A7;
+    padding: 15px 25px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/*NavMobile*/
+
+.NavMobile {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+
+.WrapperLogoMob {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.WrapperLogoMob .BoxImg {
+    height: 35px;
+    width: 50px;
+}
+.WrapperLogoMob .BoxImg img {
+    height: 100%;
+    width: 100%;
+}
+
+.WrapperLogoMob .detailMob {
+    margin-right: 10px;
+}
+.WrapperLogoMob .detailMob .HelpIran {
+    color: #034EA2;
+    font-size: 1.1rem;
+}
+
+.WrapperLogoMob .detailMob .IranAssistance {
+    color: #EE1D25;
+    font-size: 1.1rem;
+}
+
+.NavMobile .Item .Link .Btn-LA {
+    background: #1158A7;
+    padding: 12px 25px;
+    color: white;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(18, 18, 18, 0.2);
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.BtnClose {
+    padding: 5px;
+    border: none;
+    background-color: #61dafb;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .NavDesktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1279px) {
+    .NavMobile {
+        display: none;
+    }
+}
+
+
