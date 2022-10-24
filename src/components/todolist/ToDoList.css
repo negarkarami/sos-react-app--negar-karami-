@@ -1,0 +1,46 @@
+.ToDoList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    direction: ltr;
+}
+
+.ToDoList .ToDo .Input {
+    padding: 10px 30px;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.ToDoList .ToDo .BtnAdd {
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid #61dafb;
+    margin-left: 10px;
+    background-color: powderblue;
+}
+
+.ToDoList .ItemsTodo {
+
+}
+
+.ToDoList .ItemsTodo  .ItemTodo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 275px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 4px rgba(18, 18, 18, 0.5);
+    padding: 10px;
+}
+
+.ToDoList .ItemsTodo .BtnDelete {
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #61dafb;
+    background-color: powderblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

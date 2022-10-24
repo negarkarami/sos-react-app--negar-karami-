@@ -6,7 +6,7 @@ import {Constant} from "../../Constant";
 export function CardView({data}) {
 
     return (
-        <Link to={`article/${data.id}`}>
+        <Link to={`articles/${data.id}`}>
             <div className="BoxCard">
                 <div className="BoxPic">
                     <img src={data.image} />

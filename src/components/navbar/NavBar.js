@@ -6,6 +6,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import {useState} from "react";
 import MenuMobile from "../menu-mobile/MenuMobile";
 import Modal from 'react-modal';
+import CloseIcon from '@mui/icons-material/Close';
+
 
 const NavBar = () => {
 
@@ -36,7 +38,7 @@ const NavBar = () => {
                         <a href={"/"} className="Link">{Constant.Home}</a>
                     </li>
                     <li className="Item">
-                        <a href={"/"} className="Link">{Constant.ToDoList}</a>
+                        <a href={"/todo-list"} className="Link">{Constant.ToDoList}</a>
                     </li>
                     <li className="Item">
                         <a href={"/"} className="Link">{Constant.HealthCenter}</a>
@@ -61,7 +63,7 @@ const NavBar = () => {
                     <MenuIcon/>
                 </div>
                 <Modal isOpen={modalIsOpen}>
-                    <button className="BtnClose" onClick={setModalIsOpenToFalse}>{Constant.Close}</button>
+                    <button className="BtnClose" onClick={setModalIsOpenToFalse}><CloseIcon/></button>
                     <MenuMobile/>
                 </Modal>
                 <div className="WrapperLogoMob">

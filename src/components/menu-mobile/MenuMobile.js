@@ -8,7 +8,7 @@ const MenuMobile = () => {
               <a href="/" className="LinkNavMob">{Constant.Home}</a>
           </li>
           <li className="ItemNavMob">
-              <a href="/" className="LinkNavMob">{Constant.ToDoList}</a>
+              <a href="/todo-list" className="LinkNavMob">{Constant.ToDoList}</a>
           </li>
           <li className="ItemNavMob">
               <a href="/" className="LinkNavMob">{Constant.HealthCenter}</a>
